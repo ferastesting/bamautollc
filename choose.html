@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAM Auto — Choose a Service</title>
+    <meta name="description"
+        content="BAM Auto LLC — Choose between towing & roadside assistance or browse our used car inventory.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="BAM Auto — Choose a Service">
+    <meta property="og:description" content="Towing & roadside assistance or buy quality used cars in Columbus, Ohio.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bamautollc.com/choose.html">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header__inner">
+            <a href="index.html" class="header__brand">
+                <span class="header__logo">BAM</span> Auto
+            </a>
+            <nav class="header__nav" role="navigation" aria-label="Main navigation">
+                <a href="index.html" class="header__link header__link--back" data-i18n="nav.back">← Back</a>
+                <button id="lang-toggle" class="lang-toggle" aria-label="Switch language"
+                    data-i18n="lang.toggle">ES</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="choose" role="main">
+        <h1 class="choose__title" data-i18n="choose.title">What are you looking for?</h1>
+
+        <div class="choose__grid">
+            <!-- Towing Card -->
+            <a href="towing.html" class="choose__card" id="choose-towing">
+                <span class="choose__icon">🚛</span>
+                <h2 class="choose__card-title" data-i18n="choose.towing">Towing & Roadside Assistance</h2>
+                <p class="choose__card-desc" data-i18n="choose.towingDesc">24/7 towing, jump starts, tire changes & more
+                    across Ohio</p>
+            </a>
+
+            <!-- Cars Card -->
+            <a href="cars.html" class="choose__card" id="choose-cars">
+                <span class="choose__icon">🚗</span>
+                <h2 class="choose__card-title" data-i18n="choose.cars">Buy Used Cars</h2>
+                <p class="choose__card-desc" data-i18n="choose.carsDesc">Affordable, quality pre-owned vehicles in
+                    Columbus</p>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer__inner">
+            <span class="footer__brand">BAM Auto</span>
+            <div class="footer__links">
+                <a href="tel:+16144002014" class="footer__link" data-i18n="footer.phone">614-400-2014</a>
+                <a href="mailto:info@bamautollc.com" class="footer__link"
+                    data-i18n="footer.email">info@bamautollc.com</a>
+            </div>
+            <p class="footer__copy" data-i18n="footer.rights">© 2025 BAM Auto LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/i18n.js"></script>
+</body>
+
+</html>

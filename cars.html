@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAM Auto — Used Cars for Sale in Columbus, Ohio</title>
+    <meta name="description"
+        content="BAM Auto LLC — Quality used cars at affordable prices in Columbus, Ohio. Browse our inventory and message us for details. 614-400-2014.">
+    <meta name="keywords"
+        content="used cars Columbus Ohio, buy used car, affordable cars, BAM Auto, pre-owned vehicles">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="BAM Auto — Used Cars for Sale">
+    <meta property="og:description"
+        content="Quality pre-owned vehicles at affordable prices in Columbus, Ohio. Browse our inventory!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bamautollc.com/cars.html">
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header__inner">
+            <a href="choose.html" class="header__brand">
+                <span class="header__logo">BAM</span> Auto
+            </a>
+            <nav class="header__nav" role="navigation" aria-label="Main navigation">
+                <a href="choose.html" class="header__link header__link--back" data-i18n="nav.back">← Back</a>
+                <a href="towing.html" class="header__link" data-i18n="nav.towing">Towing</a>
+                <button id="lang-toggle" class="lang-toggle" aria-label="Switch language"
+                    data-i18n="lang.toggle">ES</button>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <!-- Hero -->
+        <section class="cars-hero">
+            <div class="container">
+                <h1 class="cars-hero__title" data-i18n="cars.title">Used Cars for Sale</h1>
+                <p class="cars-hero__subtitle" data-i18n="cars.subtitle">Quality pre-owned vehicles at affordable prices
+                </p>
+            </div>
+        </section>
+
+        <!-- Cars Grid -->
+        <section class="section" aria-label="Car inventory">
+            <div class="container">
+                <div id="cars-grid">
+                    <!-- Cars are rendered dynamically by cars.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer__inner">
+            <span class="footer__brand">BAM Auto</span>
+            <div class="footer__links">
+                <a href="tel:+16144002014" class="footer__link" data-i18n="footer.phone">614-400-2014</a>
+                <a href="mailto:info@bamautollc.com" class="footer__link"
+                    data-i18n="footer.email">info@bamautollc.com</a>
+            </div>
+            <p class="footer__copy" data-i18n="footer.rights">© 2025 BAM Auto LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/cars.js"></script>
+</body>
+
+</html>
