@@ -1,0 +1,49 @@
+[
+  {
+    "id": "2011-toyota-camry",
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Camry",
+    "mileage": 193000,
+    "mileageDisplay": "193k",
+    "titleStatus": null,
+    "price": null,
+    "images": [
+      "https://drive.google.com/thumbnail?id=1MBbpGQE_RQRhVQfvneFSRN1h2Ykk4JFn&sz=w800",
+      "https://drive.google.com/thumbnail?id=1MnOCLo0eJ_sSBGQOaBkl0v_tTxxdb5xQ&sz=w800",
+      "https://drive.google.com/thumbnail?id=1HFMX_qN5x4_-3Dco8g63NBWPw-MFeUbQ&sz=w800"
+    ]
+  },
+  {
+    "id": "2012-toyota-camry",
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Camry",
+    "mileage": 152000,
+    "mileageDisplay": "152k",
+    "titleStatus": null,
+    "price": null,
+    "images": [
+      "https://drive.google.com/thumbnail?id=1wA_v9LIYkK8TS74kPakAfhHguzWsa5Zm&sz=w800",
+      "https://drive.google.com/thumbnail?id=1jUkIXU1FETdFMMXlRcr2GBZNbQ1bYL8x&sz=w800",
+      "https://drive.google.com/thumbnail?id=1Ux-NkyLKftAAq3XcscWyBNy5eLZV5-0T&sz=w800",
+      "https://drive.google.com/thumbnail?id=1U9baje22JSMu4Mz9EfhpE8DbPsVBH6hA&sz=w800"
+    ]
+  },
+  {
+    "id": "2013-volkswagen-routan",
+    "year": 2013,
+    "make": "Volkswagen",
+    "model": "Routan",
+    "mileage": 111000,
+    "mileageDisplay": "111k",
+    "titleStatus": "Clean title",
+    "price": null,
+    "images": [
+      "https://drive.google.com/thumbnail?id=1to5YX3v3rc5fHqlG_TWLPKshKjZllFDV&sz=w800",
+      "https://drive.google.com/thumbnail?id=19MjPAwub9yAXODnAMgo5EMxhqNEqQye8&sz=w800",
+      "https://drive.google.com/thumbnail?id=1Z1VN8jJc4WL_pRFuzd8o_NH5qJjdHWjV&sz=w800",
+      "https://drive.google.com/thumbnail?id=1wLVU2pmEOkC4vCJRuSW8Pfd0IgBZ--WX&sz=w800"
+    ]
+  }
+]
